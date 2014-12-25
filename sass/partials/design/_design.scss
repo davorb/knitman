@@ -9,8 +9,12 @@
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
+body {
+   background-color: #fff;
+}
+
 .menu {
-   background-color: teal !important;
+   background-color: #004f4f !important;
    font-family: 'Ubuntu', sans-serif;
    height: 48px !important;
 }
@@ -25,6 +29,7 @@
    float: right;
    height: 100% !important;
    display: table !important;
+   padding-right: 5px !important;
 }
 
 .menu li {
@@ -33,12 +38,20 @@
 }
 
 .menu li a {
-   color: #c2feff !important;
+   margin-left: 2px;
+   margin-right: 2px;
+   padding-right: 6px !important;
+   padding-left: 6px !important;
+
+   color: #fff !important;
    font-size: 100% !important;
+
+   border: 1px solid #c2feff;
+   border-radius: 4px;
 }
 
 .menu a:hover {
-   background-color: teal !important;
+   background-color: #006868 !important;
    color: #fff !important;
 }
 
@@ -47,6 +60,8 @@
    border-style: solid;
    border-width: 1px;
    border-color: #008080;
+
+   box-shadow: 5px 5px 10px -8px rgba(0,0,0,0.75);
 }
 
 .github-fork-ribbon {
